@@ -43,12 +43,12 @@ if menu == "Création Galaxie":
     st.subheader("🔮 Choix des Paramètres")
 
     moules = {
-        "Pyramide": "https://i.imgur.com/NqKd8rY.png",
-        "Boite Tête de mort": "https://i.imgur.com/ZZjeyyP.png",
-        "Grinder": "https://i.imgur.com/f3rA0zH.png",
-        "Sous-verre": "https://i.imgur.com/kI0m9Vh.png",
-        "Pendentif Treelife": "https://i.imgur.com/fAIX0NS.png",
-        "Cendrier Carré": "https://i.imgur.com/7BaKMQa.png"
+        "Pyramide": "https://i.etsystatic.com/34814506/r/il/40b456/3917186865/il_570xN.3917186865_s5sv.jpg",
+        "Boite Tête de mort": "https://m.media-amazon.com/images/I/513vg6lD4GL.jpg",
+        "Grinder": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSinrnqVnjtwIBqyWnq2MZW-6p_URLYg6F0ymo7cSQZtA&s",
+        "Sous-verre": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa5RAhlRYEUqQFrpG2pXvZRaiepR8IpujgkUoTnrWyTQ&s",
+        "Pendentif Treelife": "https://m.media-amazon.com/images/I/71GxpyDaklL.jpg",
+        "Cendrier Carré": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT61lD4K_0t9SU3S2IezfFyon3TzD8nhwoSm0roc4CEHw&s"
     }
 
     choix_moule = st.selectbox("🔍 Choisis ton moule", list(moules.keys()))
